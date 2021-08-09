@@ -10,8 +10,7 @@ def launch_driver(driver, url):
     if len(driver.find_elements_by_id("onetrust-accept-btn-handler")):
         driver.find_element_by_id("onetrust-accept-btn-handler").click()
 
-def functionality_1(driver,url,products,tricentis_tosca,title_1, description_1, title_2, description_2, title_3, description_3, title_4, description_4, title_5, description_5, title_6, description_6, title_7, description_7, title_8, description_8, title_9, description_9, title_10, description_10, title_11, description_11):
-    # driver.get(url)
+def functionality_1(driver,products,tricentis_tosca,title_1, description_1, title_2, description_2, title_3, description_3, title_4, description_4, title_5, description_5, title_6, description_6, title_7, description_7, title_8, description_8, title_9, description_9, title_10, description_10, title_11, description_11):
     time.sleep(5)
     driver.find_element_by_xpath(products).click()
     time.sleep(3)
@@ -61,8 +60,7 @@ def functionality_1(driver,url,products,tricentis_tosca,title_1, description_1, 
     f.write(s)
     f.close()
 
-def functionality_2(driver,url,why_tricentis,newsroom,date_1,headline_1, date_2,headline_2, date_3,headline_3):
-    #driver.get(url)
+def functionality_2(driver,why_tricentis,newsroom,date_1,headline_1, date_2,headline_2, date_3,headline_3):
     driver.maximize_window()
     time.sleep(5)
     driver.find_element_by_xpath(why_tricentis).click()
@@ -87,8 +85,6 @@ def functionality_2(driver,url,why_tricentis,newsroom,date_1,headline_1, date_2,
     f.write(s)
     f.close()
     print("Saved in latest_press_releases.csv file inside the directory : spreadsheets")
-    #driver.quit()
-
 
 def functionality_3(driver,url_customers,url_awards,mediacontact_name,mediacontact_email,client1, client2, client3, client4, client5, client6, client7, client8, client9, client10, client11, client12):
     clients= [client1, client2, client3, client4, client5, client6, client7, client8, client9, client10, client11, client12]
@@ -112,12 +108,9 @@ def functionality_3(driver,url_customers,url_awards,mediacontact_name,mediaconta
     file.write(s)
     file.close()
     print("Saved in media_contact_tricentis.md file in the directory : notes")
-    #driver.quit()
-    
 
-def functionality_4(driver,url,services,consulting_services,title_1_bc,description_1_bc,title_2_bc,description_2_bc,title_3_bc,description_3_bc,title_1_em,description_1_em,title_2_em,description_2_em,title_3_em,description_3_em):
-    #driver.get(url)
-    #driver.meximize_windows()
+
+def functionality_4(driver,services,consulting_services,title_1_bc,description_1_bc,title_2_bc,description_2_bc,title_3_bc,description_3_bc,title_1_em,description_1_em,title_2_em,description_2_em,title_3_em,description_3_em):
     time.sleep(5)
     driver.find_element_by_xpath(services).click()
     time.sleep(3)
@@ -254,7 +247,6 @@ def functionality_5(driver,url_knowledge,trouble_shooting,num_data1,num_data2,nu
     list_for_csv.append(num_data9 + "," + product_data9 + "," + title_data9 + "," + category_data9 + "," + state_data9 + "," + created_data9 + "," + updated_data9)
     list_for_csv.append(num_data10 + "," + product_data10 + "," + title_data10 + "," + category_data10 + "," + state_data10 + "," + created_data10 + "," + updated_data10)
     sc.save_sheet(list_for_csv, "troubleshoot.csv", "spreadsheets")
-    #driver.quit()
     
 def quit_driver(driver):
     driver.quit()
