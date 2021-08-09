@@ -1,0 +1,11 @@
+Number,Product,Title,Category,State,Created,Updated
+KB0015024,,Not able to click at right position,Troubleshooting,Approval,2019-10-25 10:41:44,2021-08-06 11:46:36
+KB0012336,,How-To: Split Single Buffer with Multiple Results up into Several Buffers,Troubleshooting,Approval,2016-03-19 04:45:49,2021-08-05 12:05:07
+KB0015959,,SSO Login Fails - Your SSO account is not associated with any qTest account.,Troubleshooting,Published,2021-08-04 21:45:21,2021-08-04 21:50:50
+KB0015953,Tricentis qTest,qTest Queue Overloaded - How to increase qTest Queue Size,Troubleshooting,Published,2021-07-28 21:08:48,2021-08-04 21:50:34
+KB0014264,Tricentis Tosca,Select on screen option highlights the control in a different position in screen.,Troubleshooting,Approval,2019-01-08 16:48:01,2021-08-04 10:45:44
+KB0012374,,Error "Object reference not set to an instance of an object" when running classic or mixed execution,Troubleshooting,Published,2016-04-13 14:39:55,2021-08-03 12:42:50
+KB0011746,Tricentis Tosca,Clean Uninstall Tosca Commander,Troubleshooting,Approval,2014-08-18 14:05:52,2021-08-02 22:01:33
+KB0014612,Tricentis Tosca,"Unable to cast COM object of type Microsoft.Office.Interop.Excel.ApplicationClass’ to interface typ,Troubleshooting,Published,2019-04-15 15:41:58,2021-07-30 16:05:06
+KB0015955,Tricentis Tosca,When using e.g. {CLICK} or {MOUSEOVER} the mouse points to a different position,Troubleshooting,Approval,2021-07-29 16:02:46,2021-07-29 16:02:47
+KB0015936,,How to identify which user added/updated/fetched JIRA integration from qTest logs.,Troubleshooting,Approval,2021-07-02 14:57:13,2021-07-29 06:25:44
